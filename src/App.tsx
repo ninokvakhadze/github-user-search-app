@@ -21,7 +21,7 @@ function App() {
       </div>
       <div className="card">
         <div className="image-personal-info">
-          <img src={profile} alt="profile" />
+          <img src={profile} alt="profile" className="profile"/>
           <div className="info">
             <div className="name-username">
               <h4>The Octocat</h4>

@@ -174,3 +174,99 @@ a {
   font-weight: 400;
   line-height: normal;
 }
+@media screen and (min-width: 768px) {
+  .App {
+    padding: 97px 140px 236px 97px;
+  }
+  input {
+    height: 69px;
+    padding: 22px 80px;
+    background-position: top 22px left 32px;
+    font-size: 18px;
+  }
+  button {
+    width: 106px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: -115px;
+  }
+  .card {
+    padding: 40px;
+    margin-top: 24px;
+  }
+  .image-personal-info {
+    margin-top: 15px;
+    gap: 8%;
+  }
+  .profile {
+    width: 117px;
+    height: 117px;
+  }
+  h4 {
+    font-size: 26px;
+  }
+  a {
+    font-size: 16px;
+    margin-top: 2px;
+  }
+  .join-date {
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  .text {
+    font-size: 15px;
+    margin-top: 24px;
+  }
+  .small-card {
+    padding: 15px 0px;
+    margin-top: 32px;
+  }
+  .title {
+    font-size: 13px;
+  }
+  .number {
+    font-size: 22px;
+  }
+  .adresses {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+  }
+  .adress-logo {
+    gap: 16px;
+  }
+  .adress {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .App {
+    padding: 144px 355px;
+  }
+  .card {
+    padding: 48px;
+  }
+  .image-personal-info {
+    margin-top: 15px;
+    gap: 8%;
+  }
+  .text{
+    margin-left: 27%;
+  }
+  .info {
+    display: flex;
+    gap: 120px;
+  }
+  .small-card {
+    margin-left: 27%;
+  }
+  .adresses {
+    margin-left: 27%;
+    margin-top: 37px;
+    gap: 19px;
+  }
+
+}
