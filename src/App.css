@@ -251,9 +251,9 @@ a {
   }
   .image-personal-info {
     margin-top: 15px;
-    gap: 8%;
+
   }
-  .text{
+  .text {
     margin-left: 27%;
   }
   .info {
@@ -268,5 +268,9 @@ a {
     margin-top: 37px;
     gap: 19px;
   }
-
+}
+@media screen and (min-width: 1500px){
+  .image-personal-info{
+    margin-left: 9%;
+  }
 }
