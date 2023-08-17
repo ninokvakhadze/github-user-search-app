@@ -20,6 +20,10 @@ header {
   display: flex;
   gap: 16px;
   margin: 9px;
+  cursor: pointer;
+}
+.logo{
+  opacity: 50%;
 }
 h1 {
   color: #fff;
@@ -46,6 +50,19 @@ h3 {
 .input-div {
   display: flex;
   margin-top: 35px;
+  position: relative;
+  cursor: pointer;
+}
+.error {
+  color: #f74646;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 30%;
+  right: 13%;
 }
 input {
   height: 60px;
@@ -65,8 +82,15 @@ input {
   font-weight: 400;
   line-height: 25px;
 }
+.input-light {
+  background-color: #fefefe;
+  color: #4b6a9b;
+}
 input::placeholder {
   color: #fff;
+}
+.input-light::placeholder {
+  color: #4b6a9b;
 }
 button {
   width: 84px;
@@ -82,6 +106,7 @@ button {
   background: #0079ff;
   border: none;
   margin-left: -90px;
+  cursor: pointer;
 }
 .card {
   border-radius: 15px;
@@ -89,9 +114,18 @@ button {
   padding: 32px 24px 49px 24px;
   margin-top: 16px;
 }
+.darkCard {
+  background: #fefefe;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+}
 .image-personal-info {
   display: flex;
   gap: 5%;
+}
+.profile {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
 h4 {
   color: #fff;
@@ -101,6 +135,7 @@ h4 {
   font-weight: 700;
   line-height: normal;
 }
+
 a {
   color: #0079ff;
   font-family: Space Mono;
@@ -174,6 +209,16 @@ a {
   font-weight: 400;
   line-height: normal;
 }
+.not-avaliable {
+  color: #4b6a9b;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 50%;
+}
+
 @media screen and (min-width: 768px) {
   .App {
     padding: 97px 140px 236px 97px;
@@ -251,7 +296,6 @@ a {
   }
   .image-personal-info {
     margin-top: 15px;
-
   }
   .text {
     margin-left: 27%;
@@ -269,8 +313,8 @@ a {
     gap: 19px;
   }
 }
-@media screen and (min-width: 1500px){
-  .image-personal-info{
+@media screen and (min-width: 1500px) {
+  .image-personal-info {
     margin-left: 9%;
   }
 }
